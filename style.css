@@ -4,3 +4,36 @@
   box-sizing: border-box;
   font-family: cursive;
 }
+#sub-body{
+  height: 100svh;
+  display: flex;
+background: linear-gradient(to right, rgba(153, 2, 153,0.4),rgba(243, 207, 3,0.6)),url("./cold.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+#box{
+  border: 3px solid black;
+  height: 30rem;
+  aspect-ratio: 1/1;
+}
+#search-field{
+  display:flex;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 1.5rem;
+}
+#input{
+  width: 10rem; 
+  height: 2rem;
+}
+#result{
+  padding-top: 1rem;
+  text-align: center;
+}
+#temp-result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
